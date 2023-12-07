@@ -8,7 +8,7 @@
 
     <link rel="icon" href="{{ asset('web_asset/img/fav-icon.png') }}" type="image/x-icon" />
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Sierra</title>
+    <title>@yield('title')</title>
 
     @include('layouts.web.header')
        

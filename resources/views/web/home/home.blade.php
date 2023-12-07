@@ -1,5 +1,8 @@
 @extends('layouts.web_include')
 
+@section('title', 'Home')
+@section('home-active', 'active')
+
 @section('view-area')
     
     

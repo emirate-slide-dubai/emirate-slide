@@ -1,5 +1,9 @@
 @extends('layouts.web_include')
 
+@section('title', 'Contact')
+
+@section('contact-active','active')
+
 @section('view-area')
 
 
@@ -56,7 +60,7 @@
     
     <!--================Map Area =================-->
     <section class="contact_map_area">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.0215943318326!2d74.34432787469659!3d31.5235668469857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391905ba90cc9631%3A0xaeb19bbf2ee3b191!2sMain%20Market%20Gulberg!5e0!3m2!1sen!2s!4v1701805023499!5m2!1sen!2s" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.0215943318326!2d74.34432787469659!3d31.5235668469857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391905ba90cc9631%3A0xaeb19bbf2ee3b191!2sMain%20Market%20Gulberg!5e0!3m2!1sen!2s!4v1701805023499!5m2!1sen!2s" width="800" height="600" style="border:0;width:100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <div class="map_location_box">
             <div class="container">
                 <div class="map_l_box_inner">
