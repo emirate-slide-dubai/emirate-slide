@@ -1,0 +1,9 @@
+.custom_feature_item{
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 0px 10px 0px grey;
+    padding: 40px 0px 60px 0px;
+    -webkit-transition: all 400ms linear 0s;
+    -o-transition: all 400ms linear 0s;
+    transition: all 400ms linear 0s;
+}

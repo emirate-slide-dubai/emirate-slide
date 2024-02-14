@@ -1,0 +1,51 @@
+@media (min-width: 0px) and (max-width: 414px) {
+    .navbar{
+        padding: 0px 15px;
+    }
+  }
+  @media (min-width: 0px) and (max-width: 414px) {
+    .navbar{
+        padding: 0px 15px;
+    }
+    #demo {
+        margin-top: 48px!important;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 767px) {
+    .talk_text h4{
+        font-size: 25px;
+    }
+    .talk_text a {
+        font-size: 18px;
+    }
+
+  }
+  @media (min-width: 0px) and (max-width: 767px) {
+    #para_spacing_alm_sli{
+        margin-top: 15px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 3000px) {
+    .talk_text h4{
+        font-size: 25px;
+    }
+    .talk_text a {
+        font-size: 18px;
+    }
+    #spacing_adj{
+        margin-top: 3rem;
+    }
+    #spacing_adj_folding{
+        padding-top: 6rem;
+    }
+    #para_spacing_alm_sli{
+        margin-top: 30px;
+    }
+    #spacing_slim-fold_img{
+        margin-top: 3rem;
+    }
+    #spacing_slim-fold_img2{
+        padding-top: 6rem;
+    }
+
+  }

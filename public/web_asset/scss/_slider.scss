@@ -1,7 +1,8 @@
 /* Slider css
 ============================================================================================ */
-.main_slider_area{
-    background: url(../img/home-slider/slider-bg-1.png) no-repeat scroll center center;
+.main_slider_areas{
+    background: url(../our_images/blogs/blog-5.jpg) no-repeat scroll center center;
+    // background: url(../img/home-slider/slider-bg-1.png) no-repeat scroll center center;
     background-size: cover;
     .rev_slider{
         .tp-revslider-mainul{
@@ -57,7 +58,7 @@
         .tp-rightarrow{
             border-bottom-left-radius: 60px;
             border-top-left-radius: 60px;
-            border-right: 0px;
+            border-right: 5px;
         }
     }
 }

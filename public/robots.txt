@@ -1,2 +1,7 @@
 User-agent: *
-Disallow:
+Allow: /*
+Allow: *.js
+Allow: *.css
+Disallow: /cgi-bin/
+
+Sitemap: https://emirateslide.com/sitemap.xml

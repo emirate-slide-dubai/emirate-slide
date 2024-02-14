@@ -10,4 +10,7 @@ class AboutusController extends Controller
     public function index(){
         return view('web.aboutus.aboutus');
     }
+    public function termsCondition(){
+        return view('web.termCondition.terms-condition');
+    }
 }

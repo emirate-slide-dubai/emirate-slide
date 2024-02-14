@@ -1,12 +1,7 @@
 /* Main Menu Area css
 ============================================================================================ */
 .main_menu_area{
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    z-index: 30;
-    padding: 0px 45px;
+   
     .navbar{
         padding: 0px;
         border-radius: 0px;
@@ -118,7 +113,8 @@
         top: -70px;
         left: 0;
         right: 0;
-        background: rgba(0, 0, 0, .6);  
+        background: -webkit-gradient(linear, left top, right top, from(#063243), color-stop(51%, #a49aff), to(#454f5a)) !important;
+        // background: rgba(0, 0, 0, .6);  
         transform: translateY(70px);
         transition: transform 500ms ease, background 500ms ease;
         -webkit-transition: transform 500ms ease, background 500ms ease;

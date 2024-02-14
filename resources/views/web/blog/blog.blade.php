@@ -23,56 +23,32 @@
                     <div class="blog_main_inner">
                         <div class="blog_main_item">
                             <div class="blog_img">
-                                <img class="img-fluid" src="{{ asset('web_asset/img/blog/blog-1.jpg') }}" alt="">
+                                <img class="img-fluid" style="width: 800px;height:300px" src="{{ asset('web_asset/our_images/blogs/blog-2.jpg') }}" alt="">
                                 <div class="blog_date">
-                                    <h4>29</h4>
-                                    <h5>October, 2017</h5>
+                                    <h4>25</h4>
+                                    <h5>December, 2023</h5>
                                 </div>
                             </div>
                             <div class="blog_text">
-                                <a href="{{ url('/let-us-introduce-you-the-best-apps') }}"><h4>Let us introduce you the best apps</h4></a>
-                                <div class="blog_author">
-                                    <a href="#">By Lore Papp-Dinea</a>
-                                    <a href="#">Design</a>
-                                </div>
+                                <a href="{{ url('/let-us-introduce-you-the-best-apps') }}"><h4>You Home Is Best For Sliding Doors</h4></a>
                                 <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. </p>
-                                <a class="more_btn" href="#">Read More</a>
+                                <a class="button_style" href="{{ url('/let-us-introduce-you-the-best-apps') }}">Read More</a>
                             </div>
                         </div>
                         <div class="blog_main_item">
                             <div class="blog_img">
-                                <img class="img-fluid" src="{{ asset('web_asset/img/blog/blog-2.jpg') }}" alt="">
+                                <img class="img-fluid" style="width: 800px;height:300px" src="{{ asset('web_asset/our_images/blogs/blog-1.webp') }}" alt="">
                                 <div class="blog_date">
-                                    <h4>29</h4>
-                                    <h5>October, 2017</h5>
+                                    <h4>25</h4>
+                                    <h5>December, 2023</h5>
                                 </div>
                             </div>
                             <div class="blog_text">
-                                <a href="{{ url('/let-us-introduce-you-the-best-apps') }}"><h4>Let us introduce you the best apps</h4></a>
+                                <a href="{{ url('/let-us-introduce-you-the-best-apps') }}"><h4>Let us introduce you our clean sliding doors</h4></a>
                                 <div class="blog_author">
-                                    <a href="#">By Lore Papp-Dinea</a>
-                                    <a href="#">Design</a>
                                 </div>
                                 <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. </p>
-                                <a class="more_btn" href="#">Read More</a>
-                            </div>
-                        </div>
-                        <div class="blog_main_item">
-                            <div class="blog_img">
-                                <img class="img-fluid" src="{{ asset('web_asset/img/blog/blog-3.jpg') }}" alt="">
-                                <div class="blog_date">
-                                    <h4>29</h4>
-                                    <h5>October, 2017</h5>
-                                </div>
-                            </div>
-                            <div class="blog_text">
-                                <a href="{{ url('/let-us-introduce-you-the-best-apps') }}"><h4>Let us introduce you the best apps</h4></a>
-                                <div class="blog_author">
-                                    <a href="#">By Lore Papp-Dinea</a>
-                                    <a href="#">Design</a>
-                                </div>
-                                <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. </p>
-                                <a class="more_btn" href="#">Read More</a>
+                                <a class="button_style" href="{{ url('/let-us-introduce-you-the-best-apps') }}">Read More</a>
                             </div>
                         </div>
                     </div>

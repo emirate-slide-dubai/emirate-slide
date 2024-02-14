@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Wardrum';
+    src: local('Wardrum Bold Outline'), local('Wardrum-Bold-Outline'),
+        url('../fonts/Wardrum-BoldOutline.woff2') format('woff2'),
+        url('../fonts/Wardrum-BoldOutline.woff') format('woff'),
+        url('../fonts/Wardrum-BoldOutline.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
