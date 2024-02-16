@@ -29,7 +29,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 p-3">
                     <div class="feature_item custom_feature_item">
                         <div class="f_icon">
-                            <img class="img-fluid" style="width: 240px;height: 110px" src="{{ asset('public/web_asset/categories/aluminum-folding-door_1.webp') }}" alt="">
+                            <img class="img-fluid" style="width: 240px;height: 110px" src="{{ asset('web_asset/categories/aluminum-folding-door_1.webp') }}" alt="">
                         </div>
                         <h4>Aluminum Folding Door</h4>
                         <p>Emirate Slide carries to Dubai the square-dynamic phenomenon of aluminum folding doors. </p>
@@ -39,7 +39,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 p-3">
                     <div class="feature_item custom_feature_item">
                         <div class="f_icon">
-                            <img src="{{ asset('public/web_asset/categories/sliding-door.webp') }}" style="width: 240px;height: 110px" alt="">
+                            <img src="{{ asset('web_asset/categories/sliding-door.webp') }}" style="width: 240px;height: 110px" alt="">
                         </div>
                         <h4>Aluminum Sliding Door</h4>
                         <p>The aluminum sliding doors from Emirate Slide are a cool blend of modern style and easy use. </p>
@@ -49,7 +49,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 p-3">
                     <div class="feature_item custom_feature_item">
                         <div class="f_icon">
-                            <img class="img-fluid" style="width: 240px;height: 110px" src="{{ asset('public/web_asset/categories/slim-folding-door.webp') }}" alt="">
+                            <img class="img-fluid" style="width: 240px;height: 110px" src="{{ asset('web_asset/categories/slim-folding-door.webp') }}" alt="">
                         </div>
                         <h4>Slim Folding Door</h4>
                         <p>You were thinking of making your home view more adorable, right? Well, look at slim sliding doors. </p>
@@ -59,7 +59,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 p-3">
                     <div class="feature_item custom_feature_item">
                         <div class="f_icon">
-                            <img class="img-fluid" style="width: 240px;height: 110px" src="{{ asset('public/web_asset/categories/pergola-for-restaurant-1.webp') }}" alt="">
+                            <img class="img-fluid" style="width: 240px;height: 110px" src="{{ asset('web_asset/categories/pergola-for-restaurant-1.webp') }}" alt="">
                         </div>
                         <h4>Pergola For Restaurant</h4>
                         <p>Plan an attractive and inviting atmosphere for your restaurant with our designed.</p>
@@ -69,7 +69,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 p-3">
                     <div class="feature_item custom_feature_item">
                         <div class="f_icon">
-                            <img class="img-fluid" style="width: 240px;height: 110px" src="{{ asset('public/web_asset/categories/portable-pergola.webp') }}" alt="">
+                            <img class="img-fluid" style="width: 240px;height: 110px" src="{{ asset('web_asset/categories/portable-pergola.webp') }}" alt="">
                         </div>
                         <h4>Portable Pergola</h4>
                         <p>Have an understanding of the freedom of outdoor living with our portable pergolas. </p>
@@ -80,7 +80,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 p-3">
                     <div class="feature_item custom_feature_item">
                         <div class="f_icon">
-                            <img class="img-fluid" style="width: 240px;height: 110px" src="{{ asset('public/web_asset/categories/residential-pergola.webp') }}" alt="residential-pergola">
+                            <img class="img-fluid" style="width: 240px;height: 110px" src="{{ asset('web_asset/categories/residential-pergola.webp') }}" alt="residential-pergola">
                         </div>
                         <h4>Residential Pergola</h4>
                         <p>Convert your home’s outside area into a luxury zone with our residential pergolas.</p>
@@ -95,44 +95,38 @@
 
     <!--================Circle Chart Area =================-->
 
-    <section class="circle_chart_area">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-                    <div class="circle_progress circular style-polygon" data-percentage="75" data-thickness="3" data-reverse="true" data-empty-fill="transparent" data-start-color="#987dff" data-end-color="#7acaff">
-                        <div class="circle_progress_inner"><canvas width="175" height="175"></canvas>
-                            <strong>75<i>%</i></strong>
-                            <h4>Hard work</h4>
-                        </div> 
-                    </div>
+    <div class="container-fluid facts my-5 p-5">
+        <div class="row g-5">
+            <div class="col-md-6 col-xl-3 wow fadeIn" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
+                <div class="text-center border p-5">
+                    <i class="fa fa-certificate fa-3x text-white mb-3"></i>
+                    <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">25</h1>
+                    <span class="fs-5 fw-semi-bold text-white">Years Experience</span>
                 </div>
-                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-                    <div class="circle_progress circular style-polygon" data-percentage="83" data-thickness="3" data-reverse="true" data-empty-fill="transparent" data-start-color="#987dff" data-end-color="#7acaff">
-                        <div class="circle_progress_inner"><canvas width="175" height="175"></canvas>
-                            <strong>83<i>%</i></strong>
-                            <h4>Creativity</h4>
-                        </div> 
-                    </div>
+            </div>
+            <div class="col-md-6 col-xl-3 wow fadeIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
+                <div class="text-center border p-5">
+                    <i class="fa fa-users-cog fa-3x text-white mb-3"></i>
+                    <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">135</h1>
+                    <span class="fs-5 fw-semi-bold text-white">Team Members</span>
                 </div>
-                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-                    <div class="circle_progress circular style-polygon" data-percentage="25" data-thickness="3" data-reverse="true" data-empty-fill="transparent" data-start-color="#987dff" data-end-color="#7acaff">
-                        <div class="circle_progress_inner"><canvas width="175" height="175"></canvas>
-                            <strong>63<i>%</i></strong>
-                            <h4>Good luck</h4>
-                        </div> 
-                    </div>
+            </div>
+            <div class="col-md-6 col-xl-3 wow fadeIn" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeIn;">
+                <div class="text-center border p-5">
+                    <i class="fa fa-users fa-3x text-white mb-3"></i>
+                    <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">957</h1>
+                    <span class="fs-5 fw-semi-bold text-white">Happy Clients</span>
                 </div>
-                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-                    <div class="circle_progress circular style-polygon" data-percentage="95" data-thickness="3" data-reverse="true" data-empty-fill="transparent" data-start-color="#987dff" data-end-color="#7acaff">
-                        <div class="circle_progress_inner"><canvas width="175" height="175"></canvas>
-                            <strong>95<i>%</i></strong>
-                            <h4>Satisfaction</h4>
-                        </div> 
-                    </div>
+            </div>
+            <div class="col-md-6 col-xl-3 wow fadeIn" data-wow-delay="0.7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeIn;">
+                <div class="text-center border p-5">
+                    <i class="fa fa-check-double fa-3x text-white mb-3"></i>
+                    <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">1839</h1>
+                    <span class="fs-5 fw-semi-bold text-white">Projects Done</span>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
     <!--================End Circle Chart Area =================-->
     
 

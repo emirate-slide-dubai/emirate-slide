@@ -29,6 +29,7 @@ use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 
 Route::get('/',[HomeController::class,'index']);
 Route::get('/contact-us',[ContactController::class,'index']);
+Route::post('/store-contact',[ContactController::class,'store']);
 Route::get('/about-us',[AboutusController::class,'index']);
 Route::get('/terms-condition',[AboutusController::class,'termsCondition']);
 Route::get('/portfolio',[PortfolioController::class,'index']);

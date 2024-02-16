@@ -512,3 +512,19 @@
   background-size: cover;
   padding: 130px 0px 115px 0px;
 }
+
+
+/* Facts code starts  */
+
+.facts {
+  position: relative;
+  margin: 6rem 0;
+  background: var(--dark);
+}
+.facts .border {
+  border-color: rgba(255, 255, 255, .1) !important;
+}
+h5, h6, .h5, .h6, .fw-semi-bold {
+  font-weight: 500 !important;
+}
+/* Facts code ends  */

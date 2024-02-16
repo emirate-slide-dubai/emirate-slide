@@ -22,35 +22,35 @@
         </ul>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{ asset('public/web_asset/categories/sliding-door.webp') }}" alt="Los Angeles" width="1100"
+                <img src="{{ asset('web_asset/categories/sliding-door.webp') }}" alt="sliding-door" width="1100"
                     height="500">
             </div>
             <div class="carousel-item">
-                <img src="{{ asset('public/web_asset/categories/sliding-door-1.webp') }}" alt="Chicago" width="1100"
+                <img src="{{ asset('web_asset/categories/sliding-door-1.webp') }}" alt="sliding-door-1" width="1100"
                     height="500">
             </div>
             <div class="carousel-item">
-                <img src="{{ asset('public/web_asset/categories/sliding-door-2.webp') }}" alt="New York" width="1100"
+                <img src="{{ asset('web_asset/categories/sliding-door-2.webp') }}" alt="sliding-door-2" width="1100"
                     height="500">
             </div>
             <div class="carousel-item">
-                <img src="{{ asset('public/web_asset/categories/sliding-door-3.webp') }}" alt="New York" width="1100"
+                <img src="{{ asset('web_asset/categories/sliding-door-3.webp') }}" alt="sliding-door-3" width="1100"
                     height="500">
             </div>
             <div class="carousel-item">
-                <img src="{{ asset('public/web_asset/categories/sliding-door-4.webp') }}" alt="New York" width="1100"
+                <img src="{{ asset('web_asset/categories/sliding-door-4.webp') }}" alt="sliding-door-4" width="1100"
                     height="500">
             </div>
             <div class="carousel-item">
-                <img src="{{ asset('public/web_asset/categories/sliding-door-5.webp') }}" alt="New York" width="1100"
+                <img src="{{ asset('web_asset/categories/sliding-door-5.webp') }}" alt="sliding-door-5" width="1100"
                     height="500">
             </div>
             <div class="carousel-item">
-                <img src="{{ asset('public/web_asset/categories/sliding-door-6.webp') }}" alt="New York" width="1100"
+                <img src="{{ asset('web_asset/categories/sliding-door-6.webp') }}" alt="sliding-door-6" width="1100"
                     height="500">
             </div>
             <div class="carousel-item">
-                <img src="{{ asset('public/web_asset/categories/sliding-door-7.webp') }}" alt="New York" width="1100"
+                <img src="{{ asset('web_asset/categories/sliding-door-7.webp') }}" alt="sliding-door-7" width="1100"
                     height="500">
             </div>
         </div>
@@ -75,7 +75,7 @@
                     <div class="feature_item custom_feature_item">
                         <div class="f_icon">
                             <img class="img-fluid" style="width: 240px;height: 110px"
-                                src="{{ asset('public/web_asset/categories/aluminum-folding-door_1.webp') }}" alt="">
+                                src="{{ asset('web_asset/categories/aluminum-folding-door_1.webp') }}" alt="aluminum-folding-door-1">
                         </div>
                         <h4>Aluminum Folding Door</h4>
                         <p> Emirate Slide carries to Dubai the square-dynamic phenomenon of aluminum folding doors. </p>
@@ -86,7 +86,7 @@
                     <div class="feature_item custom_feature_item">
                         <div class="f_icon">
                             <img class="img-fluid" style="width: 240px;height: 110px"
-                                src="{{ asset('public/web_asset/categories/sliding-door.webp') }}" alt="">
+                                src="{{ asset('web_asset/categories/sliding-door.webp') }}" alt="sliding-door">
                         </div>
                         <h4>Aluminum Sliding Door</h4>
                         <p>The aluminum sliding doors from Emirate Slide are a cool blend of modern style and easy use. </p>
@@ -97,7 +97,7 @@
                     <div class="feature_item custom_feature_item">
                         <div class="f_icon">
                             <img class="img-fluid" style="width: 240px;height: 110px"
-                                src="{{ asset('public/web_asset/categories/slim-folding-door-1.webp') }}" alt="">
+                                src="{{ asset('web_asset/categories/slim-folding-door-1.webp') }}" alt="slim-folding-door-1">
                         </div>
                         <h4>Slim Folding Door</h4>
                         <p>Emirate Slide’s slim folding doors are all about simple luxury. Their thin frames... </p>
@@ -119,7 +119,7 @@
                         with great service and new solutions. The work was smooth, and the outcome is wonderful. Highly
                         recommend their expertise!.</p>
                     <div class="media">
-                        {{-- <img src="{{ asset('public/web_asset/img/team/people/people-5.jpg') }}" alt=""> --}}
+                        {{-- <img src="{{ asset('web_asset/img/team/people/people-5.jpg') }}" alt=""> --}}
                         <div class="media-body">
                             <h5>Saad Bin Khalid</h5>
                             <h6>CEO Enterprise</h6>
@@ -130,7 +130,7 @@
                     <h4>“The service was great”</h4>
                     <p class="text-justify m-1">The service was great from beginning to end. The windows and doors were budget-friendly and they don't compromise on the quality.</p>
                     <div class="media">
-                        {{-- <img src="{{ asset('public/web_asset/img/team/people/people-5.jpg') }}" alt=""> --}}
+                        {{-- <img src="{{ asset('web_asset/img/team/people/people-5.jpg') }}" alt=""> --}}
                         <div class="media-body">
                             <h5>Stuart Finali</h5>
                             <h6>HOD of Real Estate</h6>
@@ -142,7 +142,7 @@
                     <p class="text-justify m-1"> لقد قام هؤلاء الرجال بعمل ممتاز دون تقديم أي أعذار. كان العمل جيدًا ومنعشًا</p>
 
                     <div class="media">
-                        {{-- <img src="{{ asset('public/web_asset/img/team/people/people-5.jpg') }}" alt=""> --}}
+                        {{-- <img src="{{ asset('web_asset/img/team/people/people-5.jpg') }}" alt=""> --}}
                         <div class="media-body">
                             <h5>عبدالله بن عمير</h5>
                             <h6> مدير المطعم </h6>
@@ -154,7 +154,7 @@
                     <p class="text-justify m-1">كان العمال على درجة عالية من المهارة والأخلاق. وهم يعرفون كيفية التعامل مع العملاء. علاوة على ذلك، كان المشروع رائعًا. ينصح به بشده.</p>
 
                     <div class="media">
-                        {{-- <img src="{{ asset('public/web_asset/img/team/people/people-5.jpg') }}" alt=""> --}}
+                        {{-- <img src="{{ asset('web_asset/img/team/people/people-5.jpg') }}" alt=""> --}}
                         <div class="media-body">
                             <h5>يوسف بن سيف</h5>
                             <h6>صاحب جمعية الإسكان</h6>
@@ -222,7 +222,7 @@
                                     <a href="{{ url('about-us') }}">
                                         <img style="height:286px"
                                         class="img-fluid"
-                                            src="{{ asset('public/web_asset/categories/slim-folding-door-2.webp') }}" alt="blog-2-image">
+                                            src="{{ asset('web_asset/categories/slim-folding-door-2.webp') }}" alt="blog-2-image">
                                     </a>
                                 </div>
                             </div>
