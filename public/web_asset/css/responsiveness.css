@@ -2,6 +2,9 @@
     .navbar{
         padding: 0px 15px;
     }
+    .aboutus_heading{
+        font-size: 1.1rem;
+    }
   }
   @media (min-width: 0px) and (max-width: 414px) {
     .navbar{
@@ -24,6 +27,9 @@
     #para_spacing_alm_sli{
         margin-top: 15px;
     }
+    .useful_links {
+    padding-bottom: 20px !important;
+}
   }
   @media (min-width: 768px) and (max-width: 3000px) {
     .talk_text h4{
@@ -39,7 +45,7 @@
         padding-top: 6rem;
     }
     #para_spacing_alm_sli{
-        margin-top: 30px;
+        margin-top: 10px;
     }
     #spacing_slim-fold_img{
         margin-top: 3rem;
@@ -47,5 +53,12 @@
     #spacing_slim-fold_img2{
         padding-top: 6rem;
     }
+    
+.team_people_text p{
+    padding-bottom: 0px;
+  }
+  .aboutus_heading{
+    font-size: 1.6rem;
+  }
 
   }

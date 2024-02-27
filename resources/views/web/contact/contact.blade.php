@@ -57,7 +57,7 @@
                                                     <option value="Aluminum Sliding Door">Aluminum Sliding Door</option>
                                                     <option value="Slim Folding Door">Slim Folding Door</option>
                                                     <option value="Pergola For Restaurant">Pergola For Restaurant</option>
-                                                    <option value="Portable Pergola">Portable Pergola</option>
+                                                    <option value="Interactive Pergola">Interactive Pergola</option>
                                                     <option value="Residential Pergola">Residential Pergola</option>
 
                                                 </select>

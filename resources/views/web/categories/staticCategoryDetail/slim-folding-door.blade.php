@@ -1,8 +1,9 @@
 @extends('layouts.web_include')
 
 @section('title', 'Improve way of living with Slim Folding Doors | Emirate Slide LLC')
-@section("meta_title","Improve way of living with Slim Folding Doors | Emirate Slide LLC")
-@section("meta_desctipiton","Enhance your house and workplace with slim folding doors. These doors deliver an elegant look to your home. Request a free quote at Emirate Slide.")
+@section('meta_title', 'Improve way of living with Slim Folding Doors | Emirate Slide LLC')
+@section('meta_desctipiton', 'Enhance your house and workplace with slim folding doors. These doors deliver an elegant
+    look to your home. Request a free quote at Emirate Slide.')
 
 @section('category-active', 'active')
 
@@ -28,7 +29,8 @@
                             <b>Slim Folding Door :</b> Nobility and Plain
                         </h4>
                         <p id="para_spacing_alm_sli">
-                            Emirate Slide’s <a href="https://emirateslide.com/category/slim-folding-door">slim folding doors </a> are all about simple luxury. Their thin frames and big glass
+                            Emirate Slide’s <a href="{{ url('category/slim-folding-door') }}">slim folding doors
+                            </a> are all about simple luxury. Their thin frames and big glass
                             zones give you a clean, high-class look in any area. Now, just imagine a place where space for
                             other luxury furniture matters, like a small bedroom, a tiny flat, or a cozy office. Sliding
                             doors are like area-preserving models in these parts. They do not take up any additional space,
@@ -40,7 +42,7 @@
                 <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <div class="image_area" id="spacing_slim-fold_img">
                         <img class="img-fluid" src="{{ asset('public/web_asset/categories/slim-folding-door-1.webp') }}"
-                            alt="">
+                            alt="slim-folding-door">
                     </div>
                 </div>
             </div>
@@ -48,13 +50,14 @@
                 <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <div class="image_area" id="spacing_slim-fold_img2">
                         <img class="img-fluid" src="{{ asset('public/web_asset/categories/slim-folding-door-2.webp') }}"
-                            alt="">
+                            alt="slim-folding-door">
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <div class="content_area text-justify p-3 ">
                         <h4>
-                            Strong and Smooth
+                            <b>
+                                Strong and Smooth</b>
                         </h4>
                         <p id="para_spacing_alm_sli">
                             Even these doors look slim, but they are hard. Made of excellent aluminum, just like the
@@ -74,7 +77,9 @@
                 <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
                     <div class="content_area text-justify p-3">
                         <h4 class="mt-3">
-                            Enormous for Tiny Zones
+                            <b>
+                                Enormous for Tiny Zones
+                            </b>
                         </h4>
                         <p id="para_spacing_alm_sli">
                             These doors do a great job in small rooms. They make the space view even bigger than usual by
@@ -92,7 +97,7 @@
                 <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 p-3 ">
                     <div class="image_area">
                         <img class="img-fluid" src="{{ asset('public/web_asset/categories/slim-folding-door.webp') }}"
-                            alt="">
+                            alt="slim-folding-door">
                     </div>
                 </div>
             </div>

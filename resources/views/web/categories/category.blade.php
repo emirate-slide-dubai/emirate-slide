@@ -29,7 +29,17 @@
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 p-3">
                     <div class="feature_item custom_feature_item">
                         <div class="f_icon">
-                            <img class="img-fluid" style="width: 240px;height: 110px" src="{{ asset('web_asset/categories/aluminum-folding-door_1.webp') }}" alt="">
+                            <img src="{{ asset('web_asset/categories/category-logos/slimline-sliding-door-logo.webp') }}" alt="slimline-sliding-door-logo">
+                        </div>
+                        <h4>Aluminum Slimline Sliding Door</h4>
+                        <p>The aluminum slimline sliding doors from Emirate Slide are a cool blend.. </p>
+                        <a class="button_style" href="{{ url('/category/slimline-sliding-door') }}">Read More</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 p-3">
+                    <div class="feature_item custom_feature_item">
+                        <div class="f_icon">
+                            <img class="img-fluid category_img" src="{{ asset('web_asset/categories/aluminum-folding-door-3.webp') }}" alt="aluminum-folding-door-logo">
                         </div>
                         <h4>Aluminum Folding Door</h4>
                         <p>Emirate Slide carries to Dubai the square-dynamic phenomenon of aluminum folding doors. </p>
@@ -39,17 +49,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 p-3">
                     <div class="feature_item custom_feature_item">
                         <div class="f_icon">
-                            <img src="{{ asset('web_asset/categories/sliding-door.webp') }}" style="width: 240px;height: 110px" alt="">
-                        </div>
-                        <h4>Aluminum Sliding Door</h4>
-                        <p>The aluminum sliding doors from Emirate Slide are a cool blend of modern style and easy use. </p>
-                        <a class="button_style" href="{{ url('/category/aluminum-sliding-door') }}">Read More</a>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 p-3">
-                    <div class="feature_item custom_feature_item">
-                        <div class="f_icon">
-                            <img class="img-fluid" style="width: 240px;height: 110px" src="{{ asset('web_asset/categories/slim-folding-door.webp') }}" alt="">
+                            <img class="img-fluid category_img" src="{{ asset('web_asset/categories/slim-folding-door-2.webp') }}" alt="slim-folding-door-logo">
                         </div>
                         <h4>Slim Folding Door</h4>
                         <p>You were thinking of making your home view more adorable, right? Well, look at slim sliding doors. </p>
@@ -59,7 +59,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 p-3">
                     <div class="feature_item custom_feature_item">
                         <div class="f_icon">
-                            <img class="img-fluid" style="width: 240px;height: 110px" src="{{ asset('web_asset/categories/pergola-for-restaurant-1.webp') }}" alt="">
+                            <img class="img-fluid category_img" src="{{ asset('web_asset/categories/pergola-for-restaurant.webp') }}" alt="pergola-restaurant-logo">
                         </div>
                         <h4>Pergola For Restaurant</h4>
                         <p>Plan an attractive and inviting atmosphere for your restaurant with our designed.</p>
@@ -69,22 +69,32 @@
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 p-3">
                     <div class="feature_item custom_feature_item">
                         <div class="f_icon">
-                            <img class="img-fluid" style="width: 240px;height: 110px" src="{{ asset('web_asset/categories/portable-pergola.webp') }}" alt="">
+                            <img class="img-fluid" src="{{ asset('web_asset/categories/category-logos/interactive-pergola-logo.webp') }}" alt="interactive-pergola-logo">
                         </div>
-                        <h4>Portable Pergola</h4>
+                        <h4>Interactive Pergola</h4>
                         <p>Have an understanding of the freedom of outdoor living with our portable pergolas. </p>
                         
-                        <a class="button_style" href="{{ url('/category/portable-pergola') }}">Read More</a>
+                        <a class="button_style" href="{{ url('/category/interactive-pergola') }}">Read More</a>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 p-3">
                     <div class="feature_item custom_feature_item">
                         <div class="f_icon">
-                            <img class="img-fluid" style="width: 240px;height: 110px" src="{{ asset('web_asset/categories/residential-pergola.webp') }}" alt="residential-pergola">
+                            <img class="img-fluid category_img" src="{{ asset('web_asset/categories/residential-pergola.webp') }}" alt="residential-pergola">
                         </div>
                         <h4>Residential Pergola</h4>
                         <p>Convert your home’s outside area into a luxury zone with our residential pergolas.</p>
                         <a class="button_style" href="{{ url('/category/residential-pergola') }}">Read More</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 p-3">
+                    <div class="feature_item custom_feature_item">
+                        <div class="f_icon">
+                            <img class="img-fluid" src="{{ asset('web_asset/categories/category-logos/automatic-vertical-door-logo.webp') }}" alt="residential-pergola">
+                        </div>
+                        <h4>Automatic Vertical Sliding Doors</h4>
+                        <p>Convert your home’s outside area into a luxury zone with our residential pergolas.</p>
+                        <a class="button_style" href="{{ url('/category/automatic-vertical-sliding-doors') }}">Read More</a>
                     </div>
                 </div>
             </div>
@@ -95,38 +105,52 @@
 
     <!--================Circle Chart Area =================-->
 
-    <div class="container-fluid facts my-5 p-5">
-        <div class="row g-5">
-            <div class="col-md-6 col-xl-3 wow fadeIn" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
-                <div class="text-center border p-5">
-                    <i class="fa fa-certificate fa-3x text-white mb-3"></i>
-                    <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">25</h1>
-                    <span class="fs-5 fw-semi-bold text-white">Years Experience</span>
+    <section class="p-5">
+        <div class="container">
+            <div class="row" style="text-align: center">
+                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <div class="chart-container" id="chart-container-1">
+                        <svg class="chart" id="chart-1" width="100" height="100">
+                            <circle class="outer" cx="50" cy="50" r="40"></circle>
+                            <circle class="inner" cx="50" cy="50" r="40"></circle>
+                            <text class="progress-text" x="50" y="50" text-anchor="middle" dominant-baseline="middle">0%
+                                <tspan x="50" dy="1.2em">Hard Work</tspan></text>
+                        </svg>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-6 col-xl-3 wow fadeIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
-                <div class="text-center border p-5">
-                    <i class="fa fa-users-cog fa-3x text-white mb-3"></i>
-                    <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">135</h1>
-                    <span class="fs-5 fw-semi-bold text-white">Team Members</span>
+                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <div class="chart-container" id="chart-container-2">
+                        <svg class="chart" id="chart-2" width="100" height="100">
+                            <circle class="outer" cx="50" cy="50" r="40"></circle>
+                            <circle class="inner" cx="50" cy="50" r="40"></circle>
+                            <text class="progress-text" x="50" y="50" text-anchor="middle" dominant-baseline="middle">0%
+                                <tspan x="50" dy="1.2em">Creativity</tspan></text>
+                        </svg>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-6 col-xl-3 wow fadeIn" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeIn;">
-                <div class="text-center border p-5">
-                    <i class="fa fa-users fa-3x text-white mb-3"></i>
-                    <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">957</h1>
-                    <span class="fs-5 fw-semi-bold text-white">Happy Clients</span>
+                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <div class="chart-container" id="chart-container-3">
+                        <svg class="chart" id="chart-3" width="100" height="100">
+                            <circle class="outer" cx="50" cy="50" r="40"></circle>
+                            <circle class="inner" cx="50" cy="50" r="40"></circle>
+                            <text class="progress-text" x="50" y="50" text-anchor="middle" dominant-baseline="middle">0%
+                                <tspan x="50" dy="1.2em">Good Luck</tspan></text>
+                        </svg>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-6 col-xl-3 wow fadeIn" data-wow-delay="0.7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeIn;">
-                <div class="text-center border p-5">
-                    <i class="fa fa-check-double fa-3x text-white mb-3"></i>
-                    <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">1839</h1>
-                    <span class="fs-5 fw-semi-bold text-white">Projects Done</span>
+                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <div class="chart-container" id="chart-container-4">
+                        <svg class="chart" id="chart-4" width="100" height="100">
+                            <circle class="outer" cx="50" cy="50" r="40"></circle>
+                            <circle class="inner" cx="50" cy="50" r="40"></circle>
+                            <text class="progress-text" x="50" y="50" text-anchor="middle" dominant-baseline="middle">0%
+                                <tspan x="50" dy="1.2em">Satisfaction</tspan></text>
+                        </svg>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!--================End Circle Chart Area =================-->
     
 

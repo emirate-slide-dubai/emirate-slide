@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-    <a class="navbar-brand" href="/"><img id="main-logo" src="{{ asset('public/web_asset/logos/main_logo__.webp') }}" alt="emirate-slide-logo" style="width :90px" class="img-fluid"></a>
+    <a class="navbar-brand" href="/"><img id="main-logo" src="{{ asset('web_asset/logos/main_logo__.webp') }}" alt="emirate-slide-logo" style="width :90px" class="img-fluid"></a>
     <button class="navbar-toggler" style="font-size: 16px" type="button" id="openMenu" onclick="openMenu()" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>

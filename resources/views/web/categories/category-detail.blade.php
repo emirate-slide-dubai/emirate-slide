@@ -30,7 +30,7 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="feature_item custom_feature_item">
                         <div class="f_icon">
-                            <img src="{{ asset('public/web_asset/img/icon/f-icon-1.png') }}" alt="">
+                            <img src="{{ asset('public/web_asset/img/icon/f-icon-1.png') }}" alt="icon-1">
                         </div>
                         <h4>Aluminum Folding Door</h4>
                         <p>Emirate Slide carries to Dubai the square-dynamic phenomenon of aluminum folding doors. </p>

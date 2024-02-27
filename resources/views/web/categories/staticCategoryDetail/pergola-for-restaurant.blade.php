@@ -24,12 +24,12 @@
             <div class="row">
                 <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <div class="content_area text-justify p-3">
-                        <h4>
+                        <h4 style="font-size: 1.2rem;">
                             <b>Pergola For Restaurant</b>
                         </h4>
                         <p id="para_spacing_alm_sli">
                             Plan an attractive and inviting atmosphere for your restaurant with our uniquely designed
-                            pergolas. We are offering a perfect and cool <a href="https://emirateslide.com/category/pergola-for-restaurant">pergola for your restaurant </a>; our restaurant
+                            pergolas. We are offering a perfect and cool <a href="{{ url('category/pergola-for-restaurant') }}">pergola for your restaurant </a>; our restaurant
                             pergolas build up the outdoor dining experience. Hide your gallery from the sunlight and rain
                             while putting a classic taste to your formation. It is about decorating the area where customers
                             can have gorgeous sights and have their meals in comfort. Not just provide the shade.
@@ -39,13 +39,13 @@
                 <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 p-3">
                     <div class="image_area">
                         <img class="img-fluid" src="{{ asset('public/web_asset/categories/pergola-for-restaurant-1.webp') }}"
-                            alt="">
+                            alt="pergola-for-restaurant">
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 p-3">
                     <div class="image_area">
                         <img class="img-fluid" src="{{ asset('public/web_asset/categories/pergola-for-restaurant.webp') }}"
-                            alt="">
+                            alt="pergola-for-restaurant">
                     </div>
                 </div>
             </div>

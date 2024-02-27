@@ -44,11 +44,12 @@ Route::get('/categories',[CategoryController::class,'index']);
 
 // category static pages
 Route::get('/category/aluminum-folding-door',[CategoryController::class,'aluminumFolidingDoor']);
-Route::get('/category/aluminum-sliding-door',[CategoryController::class,'aluminumSlidingDoor']);
+Route::get('/category/slimline-sliding-door',[CategoryController::class,'slimlineSlidingDoor']);
 Route::get('/category/slim-folding-door',[CategoryController::class,'slimfoldingDoor']);
 Route::get('/category/pergola-for-restaurant',[CategoryController::class,'pergolaForRestaurant']);
-Route::get('/category/portable-pergola',[CategoryController::class,'portablePergola']);
+Route::get('/category/interactive-pergola',[CategoryController::class,'interactivePergola']);
 Route::get('/category/residential-pergola',[CategoryController::class,'residentialPergola']);
+Route::get('/category/automatic-vertical-sliding-doors',[CategoryController::class,'verticalslidingDoors']);
 
 
 // single blog page

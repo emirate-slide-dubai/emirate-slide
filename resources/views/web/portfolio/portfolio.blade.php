@@ -24,25 +24,25 @@
         <br>
         <!-- Nav tabs -->
         <ul class="nav nav-tabs" role="tablist">
-            <li class="nav-item" style="margin: 10px">
+            <li class="nav-item">
                 <a class="nav-link button_style active" id="tab_font_style" data-toggle="tab" href="#home">All</a>
             </li>
-            <li class="nav-item" style="margin: 10px">
-                <a class="nav-link button_style" id="tab_font_style" data-toggle="tab" href="#menu1">Aluminum Sliding Door</a>
+            <li class="nav-item">
+                <a class="nav-link button_style" id="tab_font_style" data-toggle="tab" href="#menu1">Slimline Sliding Door</a>
             </li>
-            <li class="nav-item" style="margin: 10px">
+            <li class="nav-item">
                 <a class="nav-link button_style" id="tab_font_style" data-toggle="tab" href="#menu2">Slim Folding Door</a>
             </li>
-            <li class="nav-item" style="margin: 10px">
+            <li class="nav-item">
                 <a class="nav-link button_style" id="tab_font_style" data-toggle="tab" href="#menu3">Aluminum Folding Door</a>
             </li>
-            <li class="nav-item" style="margin: 10px">
+            <li class="nav-item">
                 <a class="nav-link button_style" id="tab_font_style" data-toggle="tab" href="#menu4">Portable Pergola</a>
             </li>
-            <li class="nav-item" style="margin: 10px">
+            <li class="nav-item">
                 <a class="nav-link button_style" id="tab_font_style" data-toggle="tab" href="#menu5">Residential Pergola</a>
             </li>
-            <li class="nav-item" style="margin: 10px">
+            <li class="nav-item">
                 <a class="nav-link button_style" id="tab_font_style" data-toggle="tab" href="#menu6">Pergola For Restaurant</a>
             </li>
         </ul>
@@ -62,107 +62,107 @@
                     <div class="ms_portfolio_inner row">
                         <div class="ms_p_item brand arc photo col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <img class="img-fluid" src="{{ asset('public/web_asset/categories/sliding-door.webp') }}"
-                                alt="">
+                                alt="sliding-door">
                         </div>
                         <div class="ms_p_item brand arc photo col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <img class="img-fluid" src="{{ asset('public/web_asset/categories/sliding-door-1.webp') }}"
-                                alt="">
+                                alt="sliding-door">
                         </div>
                         <div class="ms_p_item brand img-fluid col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <img class="img-fluid" src="{{ asset('public/web_asset/categories/sliding-door-2.webp') }}"
-                                alt="">
+                                alt="sliding-door">
                         </div>
                         <div class="ms_p_item  brand arc photo col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <img class="img-fluid" src="{{ asset('public/web_asset/categories/sliding-door-3.webp') }}"
-                                alt="">
+                                alt="sliding-door">
                         </div>
                         <div class="ms_p_item brand arc photo col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <img class="img-fluid" src="{{ asset('public/web_asset/categories/sliding-door-4.webp') }}"
-                                alt="">
+                                alt="sliding-door">
                         </div>
                         <div class="ms_p_item col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <img class="img-fluid" src="{{ asset('public/web_asset/categories/sliding-door-5.webp') }}"
-                                alt="">
+                                alt="sliding-door">
                         </div>
                         <div class="ms_p_item design arc col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <img class="img-fluid" src="{{ asset('public/web_asset/categories/sliding-door-6.webp') }}"
-                                alt="">
+                                alt="sliding-door">
                         </div>
                         <div class="ms_p_item design arc col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <img class="img-fluid" src="{{ asset('public/web_asset/categories/sliding-door-7.webp') }}"
-                                alt="">
+                                alt="sliding-door">
                         </div>
                         <div class="ms_p_item brand arc photo col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <img class="img-fluid" src="{{ asset('public/web_asset/categories/slim-folding-door.webp') }}"
-                                alt="">
+                                alt="slim-folding-door">
                         </div>
                         <div class="ms_p_item brand arc photo col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <img class="img-fluid" src="{{ asset('public/web_asset/categories/slim-folding-door-1.webp') }}"
-                                alt="">
+                                alt="slim-folding-door">
                         </div>
                         <div class="ms_p_item brand img-fluid col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <img class="img-fluid" src="{{ asset('public/web_asset/categories/slim-folding-door-2.webp') }}"
-                                alt="">
+                                alt="slim-folding-door">
                         </div>
                         <div class="ms_p_item  brand arc photo col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <img class="img-fluid" src="{{ asset('public/web_asset/categories/slim-folding-door-3.webp') }}"
-                                alt="">
+                                alt="slim-folding-door">
                         </div>
                         <div class="ms_p_item brand arc photo col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <img class="img-fluid" src="{{ asset('public/web_asset/categories/slim-folding-door-4.webp') }}"
-                                alt="">
+                                alt="slim-folding-door">
                         </div>
                         <div class="ms_p_item col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <img class="img-fluid" src="{{ asset('public/web_asset/categories/slim-folding-door_5.webp') }}"
-                                alt="">
+                                alt="slim-folding-door">
                         </div>
                         <div class="ms_p_item brand arc photo col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <img class="img-fluid" src="{{ asset('public/web_asset/categories/aluminum-folding-door_1.webp') }}"
-                                alt="">
+                                alt="aluminum-folding-door_1">
                         </div>
                         <div class="ms_p_item brand arc photo col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <img class="img-fluid" src="{{ asset('public/web_asset/categories/aluminum-folding-door_2.webp') }}"
-                                alt="">
+                                alt="aluminum-folding-door_1">
                         </div>
                         <div class="ms_p_item brand img-fluid col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <img class="img-fluid" src="{{ asset('public/web_asset/categories/aluminum-folding-door-3.webp') }}"
-                                alt="">
+                                alt="aluminum-folding-door_1">
                         </div>
                         <div class="ms_p_item  brand arc photo col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <img class="img-fluid" src="{{ asset('public/web_asset/categories/aluminum-folding-door-4.webp') }}"
-                                alt="">
+                                alt="aluminum-folding-door_1">
                         </div>
                         <div class="ms_p_item brand arc photo col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <img class="img-fluid" src="{{ asset('public/web_asset/categories/portable-pergola.webp') }}"
-                                alt="">
+                                alt="portable-pergola">
                         </div>
                         <div class="ms_p_item brand arc photo col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <img class="img-fluid" src="{{ asset('public/web_asset/categories/portable-pergola-1.webp') }}"
-                                alt="">
+                                alt="portable-pergola">
                         </div>
                         <div class="ms_p_item brand img-fluid col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <img class="img-fluid" src="{{ asset('public/web_asset/categories/portable-pergola-2.webp') }}"
-                                alt="">
+                                alt="portable-pergola">
                         </div>
                         <div class="ms_p_item brand arc photo col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <img class="img-fluid" src="{{ asset('public/web_asset/categories/residential-pergola.webp') }}"
-                                alt="">
+                                alt="residential-pergola">
                         </div>
                         <div class="ms_p_item brand arc photo col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <img class="img-fluid" src="{{ asset('public/web_asset/categories/residential-pergola-1.webp') }}"
-                                alt="">
+                                alt="residential-pergola">
                         </div>
                         <div class="ms_p_item brand img-fluid col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <img class="img-fluid" src="{{ asset('public/web_asset/categories/residential-pergola-2.webp') }}"
-                                alt="">
+                                alt="residential-pergola">
                         </div>
                         <div class="ms_p_item brand arc photo col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <img class="img-fluid" src="{{ asset('public/web_asset/categories/pergola-for-restaurant.webp') }}"
-                                alt="">
+                                alt="pergola-for-restaurant">
                         </div>
                         <div class="ms_p_item brand arc photo col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <img class="img-fluid" src="{{ asset('public/web_asset/categories/pergola-for-restaurant-1.webp') }}"
-                                alt="">
+                                alt="pergola-for-restaurant">
                         </div>
                     </div>
                 </section>
@@ -173,42 +173,42 @@
             {{-- Aluminum Sliding Door --}}
             {{-- ============================ --}}
             <div id="menu1" class="container tab-pane fade"><br>
-                <h3>Aluminum Sliding Door</h3>
+                <h3>Slimline Sliding Door</h3>
                 <hr>
                 <!--================Portfolio Area =================-->
                 <section class="portfolio_area">
                     <div class="ms_portfolio_inner row">
                         <div class="ms_p_item brand arc photo col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <img class="img-fluid" src="{{ asset('public/web_asset/categories/sliding-door.webp') }}"
-                                alt="">
+                                alt="sliding-door">
                         </div>
                         <div class="ms_p_item brand arc photo col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <img class="img-fluid" src="{{ asset('public/web_asset/categories/sliding-door-1.webp') }}"
-                                alt="">
+                                alt="sliding-door">
                         </div>
                         <div class="ms_p_item brand img-fluid col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <img class="img-fluid" src="{{ asset('public/web_asset/categories/sliding-door-2.webp') }}"
-                                alt="">
+                                alt="sliding-door">
                         </div>
                         <div class="ms_p_item  brand arc photo col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <img class="img-fluid" src="{{ asset('public/web_asset/categories/sliding-door-3.webp') }}"
-                                alt="">
+                                alt="sliding-door">
                         </div>
                         <div class="ms_p_item brand arc photo col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <img class="img-fluid" src="{{ asset('public/web_asset/categories/sliding-door-4.webp') }}"
-                                alt="">
+                                alt="sliding-door">
                         </div>
                         <div class="ms_p_item col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <img class="img-fluid" src="{{ asset('public/web_asset/categories/sliding-door-5.webp') }}"
-                                alt="">
+                                alt="sliding-door">
                         </div>
                         <div class="ms_p_item design arc col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <img class="img-fluid" src="{{ asset('public/web_asset/categories/sliding-door-6.webp') }}"
-                                alt="">
+                                alt="sliding-door">
                         </div>
                         <div class="ms_p_item design arc col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <img class="img-fluid" src="{{ asset('public/web_asset/categories/sliding-door-7.webp') }}"
-                                alt="">
+                                alt="sliding-door">
                         </div>
                     </div>
                 </section>
@@ -228,27 +228,27 @@
                     <div class="ms_portfolio_inner row">
                         <div class="ms_p_item brand arc photo col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <img class="img-fluid" src="{{ asset('public/web_asset/categories/slim-folding-door.webp') }}"
-                                alt="">
+                                alt="slim-folding-door">
                         </div>
                         <div class="ms_p_item brand arc photo col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <img class="img-fluid" src="{{ asset('public/web_asset/categories/slim-folding-door-1.webp') }}"
-                                alt="">
+                                alt="slim-folding-door">
                         </div>
                         <div class="ms_p_item brand img-fluid col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <img class="img-fluid" src="{{ asset('public/web_asset/categories/slim-folding-door-2.webp') }}"
-                                alt="">
+                                alt="slim-folding-door">
                         </div>
                         <div class="ms_p_item  brand arc photo col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <img class="img-fluid" src="{{ asset('public/web_asset/categories/slim-folding-door-3.webp') }}"
-                                alt="">
+                                alt="slim-folding-door">
                         </div>
                         <div class="ms_p_item brand arc photo col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <img class="img-fluid" src="{{ asset('public/web_asset/categories/slim-folding-door-4.webp') }}"
-                                alt="">
+                                alt="slim-folding-door">
                         </div>
                         <div class="ms_p_item col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <img class="img-fluid" src="{{ asset('public/web_asset/categories/slim-folding-door_5.webp') }}"
-                                alt="">
+                                alt="slim-folding-door">
                         </div>
                     </div>
                 </section>
@@ -268,19 +268,19 @@
                     <div class="ms_portfolio_inner row">
                         <div class="ms_p_item brand arc photo col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <img class="img-fluid" src="{{ asset('public/web_asset/categories/aluminum-folding-door_1.webp') }}"
-                                alt="">
+                                alt="aluminum-folding-door_1">
                         </div>
                         <div class="ms_p_item brand arc photo col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <img class="img-fluid" src="{{ asset('public/web_asset/categories/aluminum-folding-door_2.webp') }}"
-                                alt="">
+                                alt="aluminum-folding-door_1">
                         </div>
                         <div class="ms_p_item brand img-fluid col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <img class="img-fluid" src="{{ asset('public/web_asset/categories/aluminum-folding-door-3.webp') }}"
-                                alt="">
+                                alt="aluminum-folding-door_1">
                         </div>
                         <div class="ms_p_item  brand arc photo col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <img class="img-fluid" src="{{ asset('public/web_asset/categories/aluminum-folding-door-4.webp') }}"
-                                alt="">
+                                alt="aluminum-folding-door_1">
                         </div>
                     </div>
                 </section>
@@ -299,15 +299,15 @@
                     <div class="ms_portfolio_inner row">
                         <div class="ms_p_item brand arc photo col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <img class="img-fluid" src="{{ asset('public/web_asset/categories/portable-pergola.webp') }}"
-                                alt="">
+                                alt="portable-pergola">
                         </div>
                         <div class="ms_p_item brand arc photo col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <img class="img-fluid" src="{{ asset('public/web_asset/categories/portable-pergola-1.webp') }}"
-                                alt="">
+                                alt="portable-pergola">
                         </div>
                         <div class="ms_p_item brand img-fluid col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <img class="img-fluid" src="{{ asset('public/web_asset/categories/portable-pergola-2.webp') }}"
-                                alt="">
+                                alt="portable-pergola">
                         </div>
                     </div>
                 </section>
@@ -326,15 +326,15 @@
                     <div class="ms_portfolio_inner row">
                         <div class="ms_p_item brand arc photo col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <img class="img-fluid" src="{{ asset('public/web_asset/categories/residential-pergola.webp') }}"
-                                alt="">
+                                alt="residential-pergola">
                         </div>
                         <div class="ms_p_item brand arc photo col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <img class="img-fluid" src="{{ asset('public/web_asset/categories/residential-pergola-1.webp') }}"
-                                alt="">
+                                alt="residential-pergola">
                         </div>
                         <div class="ms_p_item brand img-fluid col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <img class="img-fluid" src="{{ asset('public/web_asset/categories/residential-pergola-2.webp') }}"
-                                alt="">
+                                alt="residential-pergola">
                         </div>
                     </div>
                 </section>
@@ -353,11 +353,11 @@
                     <div class="ms_portfolio_inner row">
                         <div class="ms_p_item brand arc photo col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <img class="img-fluid" src="{{ asset('public/web_asset/categories/pergola-for-restaurant.webp') }}"
-                                alt="">
+                                alt="pergola-for-restaurant">
                         </div>
                         <div class="ms_p_item brand arc photo col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <img class="img-fluid" src="{{ asset('public/web_asset/categories/pergola-for-restaurant-1.webp') }}"
-                                alt="">
+                                alt="pergola-for-restaurant">
                         </div>
                     </div>
                 </section>

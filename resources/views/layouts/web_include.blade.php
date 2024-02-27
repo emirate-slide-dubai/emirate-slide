@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta quiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="google-site-verification" content="F7inAp89E3p-8kyY0-Fq-m7r4zzbkVa7IAa0x8DRxD8" />
     <meta name="meta_title" content = "@yield('meta_title')">
@@ -21,8 +21,8 @@
         <!-- HTML5 shim and Respond.js') }} for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js') }} doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
-        {{-- <script src="{{ asset('web_asset/https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js') }}"></script> --}}
-        {{-- <script src="{{ asset('web_asset/https://oss.maxcdn.com/respond/1.4.2/respond.min.js') }}"></script> --}}
+        {{-- <script src="{{ asset('public/web_asset/https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js') }}"></script> --}}
+        {{-- <script src="{{ asset('public/web_asset/https://oss.maxcdn.com/respond/1.4.2/respond.min.js') }}"></script> --}}
         <![endif]-->
 
         <!-- Google Tag Manager -->
@@ -43,14 +43,31 @@
     <!-- End Google Tag Manager (noscript) -->
 {{-- ================ --}}
 
+{{-- ================= --}}
+{{-- Website Loader starts here  --}}
+{{-- ================= --}}
+<div class="loader-container" id="loading">
+    <div class="glass-slider">
+      <div class="door"></div>
+    </div>
+  </div>
+{{-- ================= --}}
+{{-- Website Loader ends  here--}}
+{{-- ================= --}}
+
+
 <!--================Header Menu Area =================-->
-   @include('layouts.web.navbar')
-<!--================End Header Menu Area =================-->
+<div id="content" style="display: none">
 
-@yield('view-area')
-
+    @include('layouts.web.navbar')
+    <!--================End Header Menu Area =================-->
     
+    @yield('view-area')
+
     @include('layouts.web.footer')
+
+</div>
+
 </body>
 
 </html>

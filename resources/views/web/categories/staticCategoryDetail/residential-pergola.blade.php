@@ -30,7 +30,7 @@
                         <p id="para_spacing_alm_sli">
                             Convert your homes outside area into a luxury zone with our residential pergolas. We are helping
                             you to add value to your property, these pergolas redefine courtyard living. From presenting and
-                            collecting to composing a quiet reading corner, our <a href="https://emirateslide.com/category/residential-pergola">residential pergolas</a> offer the easiest way
+                            collecting to composing a quiet reading corner, our <a href="{{ url('category/residential-pergola') }}">residential pergolas</a> offer the easiest way
                             for the outdoor extension. Grasp the beauty of your area while having fun and comfort under the
                             shade of these delicate structures.
                         </p>
@@ -38,20 +38,20 @@
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 p-3">
                     <div class="image_area">
-                        <img class="img-fluid" src="{{ asset('web_asset/categories/residential-pergola-1.webp') }}"
-                            alt="">
+                        <img class="img-fluid" src="{{ asset('public/web_asset/categories/residential-pergola-1.webp') }}"
+                            alt="residential-pergola">
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 p-3">
                     <div class="image_area">
-                        <img class="img-fluid" src="{{ asset('web_asset/categories/residential-pergola-2.webp') }}"
-                            alt="">
+                        <img class="img-fluid" src="{{ asset('public/web_asset/categories/residential-pergola-2.webp') }}"
+                            alt="residential-pergola">
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 p-3">
                     <div class="image_area">
-                        <img class="img-fluid" src="{{ asset('web_asset/categories/residential-pergola.webp') }}"
-                            alt="">
+                        <img class="img-fluid" src="{{ asset('public/web_asset/categories/residential-pergola.webp') }}"
+                            alt="residential-pergola">
                     </div>
                 </div>
             </div>

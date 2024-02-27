@@ -392,6 +392,7 @@
 
 .l_title h2{
   font-size: 1.6rem;
+  margin-top: 15px;
 }
 .l_title #faq_h{
   color: white;
@@ -512,19 +513,111 @@
   background-size: cover;
   padding: 130px 0px 115px 0px;
 }
+.feature_item .f_icon img{
+    border-radius: 20px!important;
+}
 
 
-/* Facts code starts  */
-
-.facts {
+/* progress circles code starts here */
+.chart-container {
   position: relative;
-  margin: 6rem 0;
-  background: var(--dark);
 }
-.facts .border {
-  border-color: rgba(255, 255, 255, .1) !important;
+
+.chart {
+  width: 100px;
+  height: 100px;
 }
-h5, h6, .h5, .h6, .fw-semi-bold {
-  font-weight: 500 !important;
+
+.outer {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2px;
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5));
 }
-/* Facts code ends  */
+
+.inner {
+  fill: none;
+  stroke: #6fbcfe;
+  /* Color of progress */
+  stroke-width: 5px;
+  /* Thickness of progress */
+  stroke-dasharray: 0px 251px;
+  /* Length of circle circumference */
+  transition: stroke-dasharray 2s;
+  /* Animation duration */
+  /* filter: drop-shadow(0 0 5px rgba(0,0,0,0.5)); Shadow effect */
+}
+
+.progress-text {
+  font-size: 10px;
+  /* Adjust font size */
+  fill: #000;
+  /* Text color */
+}
+/* progress circles code ends here */
+
+.l_title h4 {
+  margin-top: 10px;
+}
+.carousel-inner img{
+  width :100%;
+  height :100%;
+}
+.nav-tabs .nav-item{
+  margin: 10px!important;
+}
+
+.category_img{
+  width: 240px;
+  height: 110px;
+}
+/* ======================= */
+/* Loader code starts here  */
+/* ======================= */
+.loader-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.glass-slider {
+  width: 200px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(to right, #6fbcfe 0%, #998dff 51%, #6fbcfe 100%) !important;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.door {
+  width: 50%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  left: -50%;
+  top: 0;
+  border-radius: 10px;
+  animation: slide-door 2s ease-in-out infinite alternate;
+}
+
+@keyframes slide-door {
+  0%, 100% {
+    transform: translateX(0%);
+  }
+  50% {
+    transform: translateX(100%);
+  }
+}
+
+/* Loader code ends here  */
+
+.feature_item h4{
+  padding: 45px 20px 22px 20px;
+}
